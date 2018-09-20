@@ -12,6 +12,8 @@ class MyClass {
     
 //    Explicit
     let labelButtonStrings = ["DeCrease", "InCrease"]
+    let labelNumberTextStrings = ["Zero","One","Two","Three","Four","Five","Six","Sevent","Eight","Nine"]
+    
     
     func decreaseNumber(numberInt: Int) -> Int {
         let resultInt = numberInt - 1

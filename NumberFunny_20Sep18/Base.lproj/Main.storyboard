@@ -50,9 +50,8 @@
                                 </items>
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jl-Xn-pL3">
-                                <rect key="frame" x="0.0" y="257" width="375" height="299"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jl-Xn-pL3">
+                                <rect key="frame" x="0.0" y="256.66666666666669" width="375" height="299.00000000000006"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="250"/>
                                 <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -62,7 +61,10 @@
                         <constraints>
                             <constraint firstItem="cbp-80-k7k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="230-do-dVq"/>
                             <constraint firstItem="cbp-80-k7k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BzG-RS-Txp"/>
+                            <constraint firstItem="9jl-Xn-pL3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eZk-OU-JfH"/>
+                            <constraint firstItem="9jl-Xn-pL3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="n1g-oH-hPJ"/>
                             <constraint firstItem="cbp-80-k7k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nuh-2w-z1h"/>
+                            <constraint firstItem="9jl-Xn-pL3" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wrd-t6-XD7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -85,7 +87,7 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GIR-t3-ZIs">
                                 <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="English" id="60y-fe-dgr">
@@ -97,20 +99,53 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zero" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5GI-1C-qBS">
+                                <rect key="frame" x="0.0" y="358" width="375" height="96"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
+                                <color key="textColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3TI-q8-z1u">
+                                <rect key="frame" x="0.0" y="714" width="375" height="64"/>
+                                <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem title="Item" image="if_1_2_387517.png" id="D4q-pQ-MKh">
+                                        <connections>
+                                            <action selector="decreaseButton:" destination="4ah-96-aNb" id="S4X-BA-WTP"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="OgT-fE-fpU"/>
+                                    <barButtonItem title="Item" image="if_1_1_387516.png" id="cSr-W9-rE6">
+                                        <connections>
+                                            <action selector="increaseButton:" destination="4ah-96-aNb" id="PTx-0h-Kbb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="3TI-q8-z1u" firstAttribute="bottom" secondItem="NdT-fq-dHt" secondAttribute="bottom" id="4fZ-5u-S3P"/>
+                            <constraint firstItem="5GI-1C-qBS" firstAttribute="centerY" secondItem="2M9-To-U39" secondAttribute="centerY" id="5Ui-3O-OKx"/>
                             <constraint firstItem="GIR-t3-ZIs" firstAttribute="leading" secondItem="NdT-fq-dHt" secondAttribute="leading" id="8mU-ZR-V6y"/>
+                            <constraint firstItem="3TI-q8-z1u" firstAttribute="trailing" secondItem="NdT-fq-dHt" secondAttribute="trailing" id="LaM-xp-HZV"/>
                             <constraint firstItem="GIR-t3-ZIs" firstAttribute="top" secondItem="NdT-fq-dHt" secondAttribute="top" id="PaU-PB-rUx"/>
                             <constraint firstItem="GIR-t3-ZIs" firstAttribute="trailing" secondItem="NdT-fq-dHt" secondAttribute="trailing" id="PvS-rW-ySz"/>
+                            <constraint firstItem="3TI-q8-z1u" firstAttribute="leading" secondItem="NdT-fq-dHt" secondAttribute="leading" id="bIU-hU-gpj"/>
+                            <constraint firstItem="5GI-1C-qBS" firstAttribute="trailing" secondItem="NdT-fq-dHt" secondAttribute="trailing" id="cX8-se-KCS"/>
+                            <constraint firstItem="5GI-1C-qBS" firstAttribute="leading" secondItem="NdT-fq-dHt" secondAttribute="leading" id="zi3-LV-Icr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NdT-fq-dHt"/>
                     </view>
                     <navigationItem key="navigationItem" id="llJ-Y4-NAL"/>
+                    <connections>
+                        <outlet property="numberLabel" destination="5GI-1C-qBS" id="gtr-Wz-KNS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FYy-oc-qrb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1922" y="27"/>
+            <point key="canvasLocation" x="1030" y="27"/>
         </scene>
     </scenes>
     <resources>
