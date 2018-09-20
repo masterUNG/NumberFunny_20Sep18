@@ -13,6 +13,12 @@
 		C41B41A0215371AB005BEE33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C41B419F215371AB005BEE33 /* Assets.xcassets */; };
 		C41B41A3215371AB005BEE33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41B41A1215371AB005BEE33 /* LaunchScreen.storyboard */; };
 		C41B41AB2153791E005BEE33 /* EnglishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B41AA2153791E005BEE33 /* EnglishViewController.swift */; };
+		C41B41AE21537D63005BEE33 /* if_previous_308957.png in Resources */ = {isa = PBXBuildFile; fileRef = C41B41AC21537D63005BEE33 /* if_previous_308957.png */; };
+		C41B41AF21537D63005BEE33 /* if_next_308956.png in Resources */ = {isa = PBXBuildFile; fileRef = C41B41AD21537D63005BEE33 /* if_next_308956.png */; };
+		C41B41B121537E25005BEE33 /* tobias-van-schneider-230167-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C41B41B021537E25005BEE33 /* tobias-van-schneider-230167-unsplash.jpg */; };
+		C41B41B421537F6E005BEE33 /* if_1_1_387516.png in Resources */ = {isa = PBXBuildFile; fileRef = C41B41B221537F6E005BEE33 /* if_1_1_387516.png */; };
+		C41B41B521537F6E005BEE33 /* if_1_2_387517.png in Resources */ = {isa = PBXBuildFile; fileRef = C41B41B321537F6E005BEE33 /* if_1_2_387517.png */; };
+		C41B41B7215382DB005BEE33 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B41B6215382DB005BEE33 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		C41B41A2215371AB005BEE33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C41B41A4215371AB005BEE33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41B41AA2153791E005BEE33 /* EnglishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishViewController.swift; sourceTree = "<group>"; };
+		C41B41AC21537D63005BEE33 /* if_previous_308957.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_previous_308957.png; sourceTree = "<group>"; };
+		C41B41AD21537D63005BEE33 /* if_next_308956.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_next_308956.png; sourceTree = "<group>"; };
+		C41B41B021537E25005BEE33 /* tobias-van-schneider-230167-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tobias-van-schneider-230167-unsplash.jpg"; sourceTree = "<group>"; };
+		C41B41B221537F6E005BEE33 /* if_1_1_387516.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_1_1_387516.png; sourceTree = "<group>"; };
+		C41B41B321537F6E005BEE33 /* if_1_2_387517.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_1_2_387517.png; sourceTree = "<group>"; };
+		C41B41B6215382DB005BEE33 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,13 @@
 			children = (
 				C41B4198215371AA005BEE33 /* AppDelegate.swift */,
 				C41B419A215371AA005BEE33 /* ViewController.swift */,
+				C41B41B221537F6E005BEE33 /* if_1_1_387516.png */,
+				C41B41B321537F6E005BEE33 /* if_1_2_387517.png */,
+				C41B41B021537E25005BEE33 /* tobias-van-schneider-230167-unsplash.jpg */,
+				C41B41AD21537D63005BEE33 /* if_next_308956.png */,
+				C41B41AC21537D63005BEE33 /* if_previous_308957.png */,
 				C41B419C215371AA005BEE33 /* Main.storyboard */,
+				C41B41B6215382DB005BEE33 /* MyClass.swift */,
 				C41B41AA2153791E005BEE33 /* EnglishViewController.swift */,
 				C41B419F215371AB005BEE33 /* Assets.xcassets */,
 				C41B41A1215371AB005BEE33 /* LaunchScreen.storyboard */,
@@ -125,9 +143,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41B41AF21537D63005BEE33 /* if_next_308956.png in Resources */,
 				C41B41A3215371AB005BEE33 /* LaunchScreen.storyboard in Resources */,
+				C41B41B521537F6E005BEE33 /* if_1_2_387517.png in Resources */,
 				C41B41A0215371AB005BEE33 /* Assets.xcassets in Resources */,
 				C41B419E215371AA005BEE33 /* Main.storyboard in Resources */,
+				C41B41B121537E25005BEE33 /* tobias-van-schneider-230167-unsplash.jpg in Resources */,
+				C41B41AE21537D63005BEE33 /* if_previous_308957.png in Resources */,
+				C41B41B421537F6E005BEE33 /* if_1_1_387516.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41B41B7215382DB005BEE33 /* MyClass.swift in Sources */,
 				C41B41AB2153791E005BEE33 /* EnglishViewController.swift in Sources */,
 				C41B419B215371AA005BEE33 /* ViewController.swift in Sources */,
 				C41B4199215371AA005BEE33 /* AppDelegate.swift in Sources */,

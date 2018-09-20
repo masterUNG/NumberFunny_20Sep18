@@ -23,7 +23,7 @@
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="Home" id="Rsa-qd-HoK">
-                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="IwJ-ba-oID">
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="if_next_308956.png" id="IwJ-ba-oID">
                                             <connections>
                                                 <segue destination="4ah-96-aNb" kind="show" id="ORk-WU-mE5"/>
                                             </connections>
@@ -31,6 +31,32 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T5R-Zt-8Zg">
+                                <rect key="frame" x="0.0" y="734" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem title="Item" image="if_1_2_387517.png" id="1ua-4W-l00">
+                                        <connections>
+                                            <action selector="decreaseButton:" destination="BYZ-38-t0r" id="8Nn-Xf-BfP"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="dLN-8r-LKq"/>
+                                    <barButtonItem title="Item" image="if_1_1_387516.png" id="HYs-u6-unz">
+                                        <connections>
+                                            <action selector="increaseButton:" destination="BYZ-38-t0r" id="iuG-fc-ZLt"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jl-Xn-pL3">
+                                <rect key="frame" x="0.0" y="257" width="375" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="250"/>
+                                <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -41,10 +67,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="lRT-zC-eQi"/>
+                    <connections>
+                        <outlet property="numberLabel" destination="9jl-Xn-pL3" id="1Vy-0F-NGs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="236" y="27"/>
+            <point key="canvasLocation" x="236" y="26.600985221674879"/>
         </scene>
         <!--English-->
         <scene sceneID="ub4-qK-oqs">
@@ -60,7 +89,7 @@
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="English" id="60y-fe-dgr">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="qX2-Gu-0Sd">
+                                        <barButtonItem key="leftBarButtonItem" title="Item" image="if_previous_308957.png" id="qX2-Gu-0Sd">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="show" id="BGI-Y2-nVc"/>
                                             </connections>
@@ -81,7 +110,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FYy-oc-qrb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1167" y="27"/>
+            <point key="canvasLocation" x="1922" y="27"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="if_1_1_387516.png" width="63" height="64"/>
+        <image name="if_1_2_387517.png" width="63" height="64"/>
+        <image name="if_next_308956.png" width="64" height="64"/>
+        <image name="if_previous_308957.png" width="64" height="64"/>
+    </resources>
 </document>
